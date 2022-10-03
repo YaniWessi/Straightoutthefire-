@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.border-blue {
+  border:1px solid blue;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align-top {
+  align-items: flex-start;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.font-size-48 {
+  font-size: 3rem;
+}
+
+.gap-32 {
+  gap: 2rem;
+}
+
+.nav-link a {
+  color: red;
+  text-decoration: none;
+}
+
+.padding-top-0 {
+  padding-top:0;
+}
+.padding-16 {
+  padding: 1rem;
+}
+
+.padding-32 {
+  padding: 2rem;
+}
+
+.appHeader {
+  border: 1px solid green;
+  display: flex;
+}

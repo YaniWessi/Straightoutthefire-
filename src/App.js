@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css'
 
 import AppHeader from "./components/header/AppHeader"
 

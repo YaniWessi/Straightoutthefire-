@@ -4,7 +4,7 @@ import NavMenu from "../navigation/NavMenu"
 import Logo from "../logo/Logo"
 
 const AppHeader = () => 
-    <div className="flex flex-justify-between padding-32 flex-align-top">
+    <div className="appHeader">
         <Logo />
         <NavMenu />
     </div>
