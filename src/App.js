@@ -1,12 +1,14 @@
 import './index.css'
 
 import AppHeader from "./components/header/AppHeader"
+import ScrollingImg from './components/body/ScrollingImg';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <AppHeader />
-    </div>
+      <ScrollingImg/>
+   </>
   );
 }
 
