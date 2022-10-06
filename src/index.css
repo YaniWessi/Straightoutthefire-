@@ -93,7 +93,7 @@ code {
 
 .appHeader {
   position: fixed;
-  border: 1px solid green;
+  border: 2.5px solid black;
   display: flex;
   align-items: center;
   padding: 0%;
