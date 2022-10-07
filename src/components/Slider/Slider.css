@@ -77,3 +77,11 @@
   .dot.active {
     background: rgb(32, 32, 32);
   }
+
+  h2{
+    color: yellow;
+    position: absolute;
+    left: 41%;
+    bottom: 50%;
+    font-size: 40px;
+  }

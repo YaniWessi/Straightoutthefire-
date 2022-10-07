@@ -53,6 +53,7 @@ export default function Slider() {
                     <div onClick={() => moveDot(index + 1)} className={slideIndex === index + 1 ? "dot active" : "dot"}/>
                 ))}
             </div>
+            <h2>Striaght out the Fire</h2>
 
         </div>
     )
