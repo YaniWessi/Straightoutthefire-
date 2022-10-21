@@ -93,16 +93,20 @@ code {
 
 .appHeader {
   position: fixed;
+  top: 0px;
+  left: 0px;
   border: 2.5px solid black;
   display: flex;
   align-items: center;
   padding: 0%;
+  margin:0px;
   height: 10%;
   width: 100%;
+ 
   /* margin-right: 100%; */
 }
 
-.media-scroller {
+/* .media-scroller {
   margin:10em;
   margin-left: 0em;
   margin-top: 6.4em;
@@ -114,6 +118,7 @@ code {
   grid-auto-columns: 21%;
   height: 80vh;
   overflow-x: auto;
-  /* overscroll-behavior-inline: contain; */
+ 
+} */
 
-}
+ /* overscroll-behavior-inline: contain; */
