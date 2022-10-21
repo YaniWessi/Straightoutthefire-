@@ -10,3 +10,5 @@ const MidBody = () => {
         </div>
     )
 }
+
+export default MidBody;
