@@ -122,3 +122,18 @@ code {
 } */
 
  /* overscroll-behavior-inline: contain; */
+
+ .mid-box {
+   border:3px solid red;
+   height:50vh;
+   width:100;
+   display:flex;
+   
+ }
+
+ .box {
+   margin: 2%;
+   width:33.3%;
+   border: 1px solid blue;
+   height: 38vh;
+ }
