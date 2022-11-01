@@ -53,11 +53,37 @@ code {
 
 .navLinks {
   margin-left: 2em;
+  border:3px solid black;
+  position:relative;
+  left: 50%;
 }
 
+/*
+.navLinks {
+  margin-left: 2em;
+}
+*/
+
+/* MENU Icon css:  https://www.youtube.com/watch?v=nWfjt7TxgmA */
+
 .navLinks a {
+  /* align-items: center; */
+  display:flex;
+  font-size:.5em;
+  
+  color: black;
+  /* text-decoration: none; */
+  /* font-family: sans-serif; */
+  /* font-size:100%; */
+  /* gap: 2rem; */
+  /* margin:2em; */
+  
+}
+
+
+/* .navLinks a {
   align-items: center;
-  /* border: 1px solid red; */
+  
   color: black;
   text-decoration: none;
   font-family: sans-serif;
@@ -65,8 +91,10 @@ code {
   gap: 2rem;
   margin:2em;
   
-}
+} */
 
+
+/* border: 1px solid red; */
 /* font-size-48 border-red padding-top-0 */
 
 .logo {
@@ -94,7 +122,29 @@ code {
 .appHeader {
   position: fixed;
   top: 0px;
-  left: 0px;
+  z-index: 1;
+  /* left: 0px; */
+  border: 2.5px solid black;
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  margin:0px;
+  height: 10%;
+  width:98%;
+  background-color: white;
+ 
+  /* margin-right: 100%; */
+}
+
+
+
+
+/* 
+.appHeader {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  
   border: 2.5px solid black;
   display: flex;
   align-items: center;
@@ -102,9 +152,17 @@ code {
   margin:0px;
   height: 10%;
   width: 100%;
- 
-  /* margin-right: 100%; */
-}
+  background-color: white;
+
+} */
+
+
+
+
+
+
+
+
 
 /* .media-scroller {
   margin:10em;
