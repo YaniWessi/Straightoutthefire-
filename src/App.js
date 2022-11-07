@@ -5,6 +5,7 @@ import AppHeader from "./components/header/AppHeader"
 
 import Slider from './components/Slider/Slider'
 import MidBody from './components/midbody/MidBody'
+import MidBodyTwo from "./components/midbody/MidBodyTwo";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <AppHeader />
       <Slider />
       <MidBody />
+      <MidBodyTwo />
+      
    </>
   );
 }

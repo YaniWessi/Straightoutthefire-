@@ -207,3 +207,27 @@ code {
   background-color:red;
   
 }
+
+/* This are styles for the mid body two*/
+
+.mid-body-box2{
+  border:1px solid blue;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.tapes{
+  border: 1px solid red;
+  height: 75vh;
+}
+
+
+.mid-body-box2 h1 {
+  text-align: center;
+}
+
+.mid-body-box2 h3{
+  font-size: 30px;
+}
