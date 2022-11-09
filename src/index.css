@@ -231,3 +231,36 @@ code {
 .mid-body-box2 h3{
   font-size: 30px;
 }
+
+
+/* This are styles for the mid video section*/
+
+.video-section {
+  border:1px solid green;
+  height: 90vh;
+}
+
+.video-section h1{
+  margin:5%;
+  /* border:1px solid blue; */
+  padding:0%;
+}
+.video{
+  /* border: 1px solid black; */
+  border-style: outset;
+  height: 35vh;
+  margin:10%;
+}
+
+/* Css styles for footer */
+
+.footer{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border: 1px solid blue;
+  height:319px;
+  width: 100%;
+  
+}

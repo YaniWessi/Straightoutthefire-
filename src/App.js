@@ -6,6 +6,8 @@ import AppHeader from "./components/header/AppHeader"
 import Slider from './components/Slider/Slider'
 import MidBody from './components/midbody/MidBody'
 import MidBodyTwo from "./components/midbody/MidBodyTwo";
+import MidVideo from "./components/midbody/MidVideo";
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Slider />
       <MidBody />
       <MidBodyTwo />
-      
+      <MidVideo/>
+      <Footer/>
+
    </>
   );
 }
