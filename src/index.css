@@ -184,8 +184,9 @@ code {
 
  .mid-box {
    border:3px solid red;
-   height:95vh;
-   width:96%;
+   height:870px;
+   width:360px;
+   margin:0 auto;
    display:flex;
    flex-wrap: wrap;
   
@@ -212,7 +213,8 @@ code {
 
 .mid-body-box2{
   border:1px solid blue;
-  height: 100vh;
+  height: 800px;
+  margin: 0 3px;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -220,7 +222,8 @@ code {
 
 .tapes{
   border: 1px solid red;
-  height: 75vh;
+  height: 280px;
+  margin:0 15px;
 }
 
 
