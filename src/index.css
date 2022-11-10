@@ -130,8 +130,8 @@ code {
   align-items: center;
   padding: 0%;
   margin:0px;
-  height: 10%;
-  width:98%;
+  height: 96px;
+  width:367px;
   background-color: white;
  
   /* margin-right: 100%; */
@@ -239,8 +239,9 @@ code {
 /* This are styles for the mid video section*/
 
 .video-section {
+  margin:0 3px;
   border:1px solid green;
-  height: 90vh;
+  height: 800px;
 }
 
 .video-section h1{
@@ -258,12 +259,13 @@ code {
 /* Css styles for footer */
 
 .footer{
+  margin:0 3px;
   position:absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
   border: 1px solid blue;
   height:319px;
-  width: 100%;
+  width: 364px;
   
 }
