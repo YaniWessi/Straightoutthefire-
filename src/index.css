@@ -131,7 +131,7 @@ code {
   padding: 0%;
   margin:0px;
   height: 96px;
-  width:367px;
+  width:98.3%;
   background-color: white;
  
   /* margin-right: 100%; */
@@ -252,20 +252,125 @@ code {
 .video{
   /* border: 1px solid black; */
   border-style: outset;
-  height: 35vh;
-  margin:10%;
+  height: 300px;
+  margin:45px;
 }
 
 /* Css styles for footer */
 
 .footer{
-  margin:0 3px;
+  margin:1px;
   position:absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
   border: 1px solid blue;
   height:319px;
-  width: 364px;
+  width: 353px;
   
 }
+
+
+
+/* styles for media query 304px */
+
+@media (min-width: 390px) {
+
+  .footer {
+   width: 382px;
+  }
+
+} 
+
+@media (min-width: 384px) {
+
+  .footer {
+   width: 376px;
+  }
+
+}
+
+@media (min-width: 412px) {
+  .mid-box {
+    width: 390px;
+  }
+
+  .footer {
+    width:404px;
+  }
+}
+
+@media (min-width: 428px) {
+
+  .mid-box {
+    width: 398px;
+  }
+  .footer{
+    width:419px
+  }
+}
+
+@media (min-width:768px) {
+
+  .mid-box {
+    width:705px;
+  }
+
+  .appHeader{
+    width: 99.3%;
+  }
+
+  .footer {
+    width:759px;
+  }
+}
+
+
+@media (min-width: 834px) {
+
+  .footer {
+    width: 825px;
+  }
+}
+/*
+@media (min-width:379px) {
+
+  .appHeader{
+    width: 373px;
+  }
+  }
+
+
+@media (min-width:381px) {
+
+  .appHeader{
+    width: 374px;
+  }
+  } */
+
+/* 
+@media (min-width:382px) {
+
+.appHeader{
+  margin:0px 3px;
+}
+ 
+.footer{
+  margin:0px 7px;
+}
+
+
+} */
+
+/* @media (min-width:392px) {
+
+  .appHeader{
+    margin:0px 8.5px;
+  }
+   
+  .footer{
+    margin:0px 7px;
+  }
+  
+  } */
+
