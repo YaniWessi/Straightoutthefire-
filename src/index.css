@@ -323,6 +323,11 @@ code {
   .footer {
     width:759px;
   }
+
+  .mid-body-box2{
+    width:600px;
+    margin-left:80px;
+  }
 }
 
 
@@ -331,6 +336,31 @@ code {
   .footer {
     width: 825px;
   }
+}
+
+@media (min-width:884px) {
+
+  .mid-body-box2 {
+    margin-left: 140px;
+  }
+} 
+
+
+@media (min-width: 1024px) {
+
+  .mid-body-box2 {
+    margin-left: 110px;
+    width: 760px;
+  }
+
+  .mid-box{
+    width: 880px
+  }
+}
+
+@media (min-width: 1280px) {
+ 
+  
 }
 /*
 @media (min-width:379px) {
