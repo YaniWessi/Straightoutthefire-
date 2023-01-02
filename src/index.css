@@ -360,7 +360,47 @@ code {
 
 @media (min-width: 1280px) {
  
+  .box {
+    height: 25vh;
+  }
   
+  .mid-box {
+    width: 740px;
+    height: 770px;
+  }
+
+  .mid-body-box2 {
+    width: 1050px;
+    height: 1000px;
+  }
+
+  .tapes {
+    height: 600px;
+  }
+
+  .video-section {
+    height: 900px;
+  }
+
+  .footer {
+    width: 1273px;
+  }
+
+  .navLinks{
+    left: 70%;
+  }
+
+  .appHeader {
+    width: 1273px;
+  }
+}
+
+
+@media (min-width: 1536px ) {
+
+  .appHeader {
+    width: 1529px;
+  }
 }
 /*
 @media (min-width:379px) {
