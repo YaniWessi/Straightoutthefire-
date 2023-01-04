@@ -15,7 +15,7 @@ function App() {
       <AppHeader />
       <Slider />
       <MidBody />
-      <MidBodyTwo />
+      {/* <MidBodyTwo /> */}
       <MidVideo/>
       <Footer/>
 

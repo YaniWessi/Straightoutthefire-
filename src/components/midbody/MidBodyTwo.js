@@ -4,7 +4,7 @@ const MidBodyTwo = () => {
 return (
     <div className="mid-body-box2">
         <h1>Tapes</h1>
-
+  
         <div className="tapes"></div>
         <h3>FireHot</h3>
         <div className="tapes"></div>
