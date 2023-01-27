@@ -183,7 +183,7 @@ code {
  /* overscroll-behavior-inline: contain; */
 
  .mid-box {
-   border:3px solid red;
+   /* border:3px solid red; */
    height:870px;
    width:360px;
    margin:0 auto;
@@ -240,7 +240,7 @@ code {
 
 .video-section {
   margin:0 3px;
-  border:1px solid green;
+  /* border:1px solid green; */
   height: 800px;
 }
 
@@ -399,7 +399,8 @@ code {
 @media (min-width: 1536px ) {
 
   .appHeader {
-    width: 1529px;
+    width: 100vw;
+    height: 11vh;
   }
 
   .mid-box {
@@ -449,7 +450,17 @@ code {
   }
 
   .footer {
-    width: 1530px;
+    width: 100vw;
+  }
+
+  .mid-box{
+    margin: 0px 240px;
+    height: 700px;
+  }
+
+  .video-section{
+    margin:30px 400px;
+    width: 950px;
   }
 
 }
