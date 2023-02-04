@@ -463,6 +463,27 @@ code {
     width: 950px;
   }
 
+  .video-section h1 {
+    position: relative;
+    left: 330px;
+    bottom: 40px;
+  }
+
+  .navLinks{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    border: none;
+    position: relative;
+    left: 30%;
+    justify-content: space-between;
+    font-size: 50px;
+  }
+
+  .link{
+    text-decoration: none;
+  }
+
 }
 /*
 @media (min-width:379px) {
