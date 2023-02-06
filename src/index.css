@@ -264,7 +264,7 @@ code {
   bottom: 0;
   left: 0;
   z-index: 1;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height:319px;
   width: 353px;
   

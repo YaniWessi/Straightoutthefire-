@@ -1,0 +1,45 @@
+@media (min-width: 1280px) {
+  .footer{
+    display:flex;
+    flex-direction:row;
+  }
+
+  .info{
+    display:flex;
+    flex-direction:column;
+    /* border: 1px solid red; */
+  }
+
+  .info1{
+    margin-left:400px;
+    margin-top:20px;
+  }
+
+  .info2{
+    margin-left:210px;
+    margin-top:20px;
+  }
+
+  .info3{
+    margin-left:150px;
+    margin-top:20px;
+  }
+
+  .info a {
+    text-decoration: none;
+    color: black;
+  }
+
+  form{
+    font-size:10px;
+    width: 500px;
+    /* border: 1px solid red; */
+    margin:20px;
+  }
+
+  .subscribe{
+    display:flex;
+    flex-direction:column;
+  }
+
+}
