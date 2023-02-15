@@ -14,6 +14,7 @@ const MidVideo = () => {
 
 export default MidVideo;
 
+//how i imbeded the video ;https://www.youtube.com/watch?v=xNRJwmlRBNU
 
 // eslint-disable-next-line no-lone-blocks
 {/* <video className="video" source="https://www.youtube.com/watch?v=Hgx7uPDWJUM"><p>video loading.....</p></video>    

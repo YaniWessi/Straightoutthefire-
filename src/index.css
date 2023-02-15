@@ -1,4 +1,5 @@
 body {
+  background-color: #000000 !important;
   border: 1px solid orange;
   padding: 0;
   padding-bottom:20em;
@@ -72,7 +73,7 @@ code {
   display:flex;
   font-size:.5em;
   
-  color: black;
+  color: white;
   /* text-decoration: none; */
   /* font-family: sans-serif; */
   /* font-size:100%; */
@@ -104,8 +105,13 @@ code {
   margin-left: 10%;
   padding: 0%;
   margin-bottom: 2%;
-  font-size: 20px;
+  font-size: 2.36rem;
   font-family: sans-serif;
+  color:white;
+  position: relative;
+  left: 690px;
+  top: 0px;
+  margin-bottom: 70px;
 }
 
 .padding-top-0 {
@@ -132,7 +138,7 @@ code {
   margin:0px;
   height: 96px;
   width:98.3%;
-  background-color: white;
+  background-color: black;
  
   /* margin-right: 100%; */
 }
@@ -406,6 +412,7 @@ code {
   .mid-box {
     width: 1400px;
     height: 600px;
+    background-color: black;
 
   }
 
@@ -415,10 +422,6 @@ code {
 
   }
   
-  .box1 {
-    margin-bottom: 2px;
-    margin-top: 50px;
-  }
 
 
   .box2 {
@@ -453,9 +456,32 @@ code {
     width: 100vw;
   }
 
+  .clothing-label{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 45px;
+    top: 200px;
+  }
+
   .mid-box{
-    margin: 0px 240px;
-    height: 700px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid orange;
+    margin: 200px 0px 50px 0;
+    height: 522px;
+    width: 1918px;
+  }
+
+  .mid-box div {
+    height: 520px;
+    margin: 0px;
+    width: 22rem;
+  }
+
+  .mid-box .box1 {
+    margin-left: 30px;
   }
 
   .video-section{
@@ -473,11 +499,12 @@ code {
     display: flex;
     flex-direction: row;
     width: 700px;
-    border: none;
+    /* border: 1px solid orange; */
     position: relative;
-    left: 30%;
+    left: 10%;
+    top: 20px;
     justify-content: space-between;
-    font-size: 50px;
+    font-size: 2rem;
   }
 
   .link{
@@ -485,45 +512,3 @@ code {
   }
 
 }
-/*
-@media (min-width:379px) {
-
-  .appHeader{
-    width: 373px;
-  }
-  }
-
-
-@media (min-width:381px) {
-
-  .appHeader{
-    width: 374px;
-  }
-  } */
-
-/* 
-@media (min-width:382px) {
-
-.appHeader{
-  margin:0px 3px;
-}
- 
-.footer{
-  margin:0px 7px;
-}
-
-
-} */
-
-/* @media (min-width:392px) {
-
-  .appHeader{
-    margin:0px 8.5px;
-  }
-   
-  .footer{
-    margin:0px 7px;
-  }
-  
-  } */
-
