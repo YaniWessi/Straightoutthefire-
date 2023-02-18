@@ -202,7 +202,7 @@ code {
  .box {
    margin: 2%;
    width:44.6%;
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    height: 30vh;
  }
 
@@ -211,7 +211,7 @@ code {
 }
 
 .box4{
-  background-color:red;
+  /* background-color:red; */
   
 }
 
@@ -252,6 +252,7 @@ code {
 
 .video-section h1{
   margin:5%;
+  color: white;
   /* border:1px solid blue; */
   padding:0%;
 }
@@ -466,18 +467,24 @@ code {
   }
 
   .mid-box{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid orange;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 23%;
+    overflow: auto;
+    overscroll-behavior-inline: contain;
     margin: 200px 0px 50px 0;
     height: 522px;
     width: 1918px;
   }
 
   .mid-box div {
-    height: 520px;
+    height: 500px;
     margin: 0px;
     width: 22rem;
+  }
+
+  .mid-box div p {
+    color: white;
   }
 
   .mid-box .box1 {
@@ -487,12 +494,13 @@ code {
   .video-section{
     margin:30px 400px;
     width: 950px;
+
   }
 
   .video-section h1 {
     position: relative;
     left: 330px;
-    bottom: 40px;
+    bottom: 30px;
   }
 
   .navLinks{
