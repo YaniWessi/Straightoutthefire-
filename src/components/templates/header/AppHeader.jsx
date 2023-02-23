@@ -1,7 +1,7 @@
 import React from "react";
 
-import NavMenu from "../navigation/NavMenu"
-import Logo from "../logo/Logo"
+import NavMenu from "../../molecules/navigation/NavMenu"
+import Logo from "../../molecules/logo/Logo"
 
 const AppHeader = () => 
     <div className="appHeader">

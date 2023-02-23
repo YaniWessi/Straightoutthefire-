@@ -1,5 +1,5 @@
 import React from 'react';
-import AppHeader from '../components/header/AppHeader';
+import AppHeader from '../components/templates/header/AppHeader';
 
 
 const AboutUs = () => 
