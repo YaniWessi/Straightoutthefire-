@@ -436,25 +436,50 @@ code {
   }
 
   .video{
-    width: 720px;
-    margin-left: 109px;
-    margin-top: 0px;
-    height: 400px;
+    position: relative;
+    top: 15px;
+    right: 140px;
+    width: 1700vw;
+    height: 490px;
+    /* border: 2px solid red; */
   }
 
   .video-section h1 {
     margin: 0px;
     padding: 0px;
+    width: 700vw;
+    /* border: 2px solid red; */
+    height: 30px;
+    font-size: 24px;
   }
 
   .video-section {
-    width: 962px;
-    height: 900px;
-    margin-left: 286px;
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 550px;
+    margin-left: 37px;
+    /* border: 2px solid red; */
   }
 
+
+  /* .video-section{
+    margin:30px 400px;
+    width: 950px;
+
+  } */
+
+  /* .video-section h1 {
+    position: relative;
+    left: 330px;
+    bottom: 30px;
+  } */
+
+
   .footer {
-    width: 100vw;
+    width: 97vw;
+    margin-left:24px;
+    /* border: 2px solid orange; */
   }
 
   .clothing-label{
@@ -463,10 +488,13 @@ code {
     flex-direction: row;
     position: relative;
     left: 45px;
-    top: 200px;
+    top: 100px;
+    /* border:1px solid red; */
   }
 
   .mid-box{
+    position: relative;
+    bottom: 100px;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 23%;
@@ -475,6 +503,7 @@ code {
     margin: 200px 0px 50px 0;
     height: 522px;
     width: 1918px;
+    /* border:1px solid red; */
   }
 
   .mid-box div {
@@ -489,18 +518,6 @@ code {
 
   .mid-box .box1 {
     margin-left: 30px;
-  }
-
-  .video-section{
-    margin:30px 400px;
-    width: 950px;
-
-  }
-
-  .video-section h1 {
-    position: relative;
-    left: 330px;
-    bottom: 30px;
   }
 
   .navLinks{

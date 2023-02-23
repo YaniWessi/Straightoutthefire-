@@ -12,9 +12,9 @@ const Home = () =>
  <>
   <AppHeader />
   <Slider />
+  <MidVideo/>
   <MerchLabelLink/>
   <MidBody />
-  <MidVideo/>
   <Footer/>
 </> 
 
