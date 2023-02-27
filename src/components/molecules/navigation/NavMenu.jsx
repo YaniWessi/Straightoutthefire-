@@ -7,12 +7,12 @@ const NavMenu = () => {
         <div className="navLinks">
         <Link to="/" className="link">Home</Link>
         <Link to="/about" className='link'>About Us</Link>
-        <a className='link' href="/artists">Artists</a>
-        <a className='link' href="/gallery">Gallery</a>
-        <a className='link' href="/shop">Shop</a>
-        <a className='link' href="/team">Our Team</a>
+        <Link to="/artist" className='link'>Artists</Link>
+        <Link to="/gallery" className='link'>Gallery</Link>
+        <Link to="/shop" className='link'>Shop</Link>
+        <Link to="/team" className='link'>Our Team</Link>
         </div>
     )
-}
+} 
 
 export default NavMenu; 
