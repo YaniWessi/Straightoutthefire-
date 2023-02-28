@@ -1,10 +1,9 @@
 import React from 'react';
-import AppHeader from '../components/templates/header/AppHeader';
+import "./about.css";
 
 
 const AboutUs = () => 
   <div className="about-us-container">
-    <AppHeader/>
     <p>Straight out of the fire is a record label and clothing bread.At our core, we are a team of resilient and determined individuals who have risen from humble beginnings to achieve our wildest dreams. We know what it's like to come from nothing and have to work hard to build a better life for ourselves and our loved ones.
 
 Our shared experiences have instilled in us a deep appreciation for the value of hard work, persistence, and perseverance. We believe that with enough determination, anything is possible, and we strive to inspire others to pursue their own dreams and ambitions, no matter how daunting they may seem.

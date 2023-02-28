@@ -1,10 +1,9 @@
 import React from 'react';
-import AppHeader from '../components/templates/header/AppHeader';
+import "./shop.css";
 
-
-const Shop = () => 
-<div className='shop-container'>
-  <AppHeader/>
-    
-</div>
+const Shop = () =>
+        <div className="shop-container">
+          <p> this is it </p>
+        </div>
+  
 export default Shop; 

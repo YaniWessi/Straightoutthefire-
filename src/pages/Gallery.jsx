@@ -1,10 +1,8 @@
 import React from 'react'; 
-import AppHeader from '../components/templates/header/AppHeader';
-
+import "./gallery.css";
 
 const Gallery = () => 
 <div className='gallery-container'>
-  <AppHeader/>
     
 </div>
 

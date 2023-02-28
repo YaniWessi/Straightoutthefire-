@@ -1,11 +1,10 @@
 import React from 'react';
-import AppHeader from '../components/templates/header/AppHeader';
+import "./artist.css";
 
 
 
 const Artist = () =>
   <div className='artist-container'>
-  <AppHeader/>
   
   </div>
 

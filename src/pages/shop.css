@@ -1,0 +1,11 @@
+body{
+border: 1px solid red;
+height:900px;
+}
+
+.shop-container p {
+  color: white;
+  position: relative;
+  top:300px;
+  font-size: 30px;;
+}
