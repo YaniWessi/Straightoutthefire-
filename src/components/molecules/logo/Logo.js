@@ -1,5 +1,5 @@
 import React from "react";
-import H3 from '../../atoms/h3/H3.jsx';
+import H3 from '../../atoms/H3.jsx';
 
 const Logo = () => 
    <div className="logo"> 
