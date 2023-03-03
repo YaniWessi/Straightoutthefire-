@@ -1,5 +1,19 @@
-.about-us-container p{
-  color: white;
-  position: relative;
-  top: 300px;
-} 
+
+@media (min-width: 1536px ) {
+
+  body{
+    height: 100px;
+  }
+
+  .aboutus p {
+    font-size: 18px;
+    border: 1px solid blue;
+    width: 500px;
+  }
+
+  .aboutus{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -1,16 +1,33 @@
 import React from 'react';
+import H2 from '../components/atoms/H2';
 import "./about.css";
 
 
-const AboutUs = () => 
-  <div className="about-us-container">
-    <p>Straight out of the fire is a record label and clothing bread.At our core, we are a team of resilient and determined individuals who have risen from humble beginnings to achieve our wildest dreams. We know what it's like to come from nothing and have to work hard to build a better life for ourselves and our loved ones.
+const AboutUs = () => {
 
-Our shared experiences have instilled in us a deep appreciation for the value of hard work, persistence, and perseverance. We believe that with enough determination, anything is possible, and we strive to inspire others to pursue their own dreams and ambitions, no matter how daunting they may seem.
-
-Our mission is to empower those who come from similar backgrounds, to give them the tools and resources they need to succeed. We know what it takes to overcome obstacles and break through barriers, and we are committed to sharing our knowledge and expertise to help others do the same.
-
-Through our work, we hope to create a world where anyone, regardless of their upbringing or circumstances, can achieve their goals and build a life they are proud of. We believe that with hard work, passion, and a little bit of luck, anything is possible.</p>
+  return (
+  <div className="aboutus">
+    <H2 text={'Straight Off the fire'} />
+    <div>
+      <p> Welcome to oue rap label and clothing brand! We are a community of artist, music lovers,
+          and fashion enthusiast who are passionate about celebrating the true source or artistic
+          expression.
+          
+          Our label is dedicated to promoting and nurturing rap talent that embodies the essence of
+          hip-hop culture. We believe that rap music is a powerful medium for telling stories, expressing
+          emotions, and sharing experience that conect people from all walks of life. We strive to empower our
+          artist tocreate authentic, meaningful music that reflects their unique perspectives and experiences. 
+          
+          In addition to our music label, we also offer a clothing brand that embodies the same spirit of authenticity
+          and creativity. Our clothing line is designed for people who share our passion for art, music, and self-expression.
+          We believe that fashion is a form of art and a powerful way to express your individuality.
+          
+          At our label and clothing brand, we are committed to supporting artists and creatives who are dedicated to staying true to our root
+          We believe that the best art comes from the source, and we are dedicated to celebrating and promoting the art that comes from the hear.
+          
+          Join us in celebrating the power of art, music, and fashion. We invite you to expore our label and clothing brand and become a part of our vibrant community of artist and art lovers</p>
+    </div>    
   </div>
-
+  )
+}
 export default AboutUs;  

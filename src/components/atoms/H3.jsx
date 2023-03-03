@@ -1,5 +1,5 @@
 import React from 'react';
-import "./H3.css";
+import "./atomsStyles.css";
 
 const H3 = ({text}) => <h3>{text}</h3>
 
