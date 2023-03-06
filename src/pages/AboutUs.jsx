@@ -7,9 +7,8 @@ const AboutUs = () => {
 
   return (
   <div className="aboutus">
-    <H2 text={'Straight Off the fire'} />
-    <div>
-      <p> Welcome to oue rap label and clothing brand! We are a community of artist, music lovers,
+    <H2 className="H2" text={'Straight Off the fire'} />
+      <p className="aboutp"> Welcome to oue rap label and clothing brand! We are a community of artist, music lovers,
           and fashion enthusiast who are passionate about celebrating the true source or artistic
           expression.
           
@@ -25,8 +24,7 @@ const AboutUs = () => {
           At our label and clothing brand, we are committed to supporting artists and creatives who are dedicated to staying true to our root
           We believe that the best art comes from the source, and we are dedicated to celebrating and promoting the art that comes from the hear.
           
-          Join us in celebrating the power of art, music, and fashion. We invite you to expore our label and clothing brand and become a part of our vibrant community of artist and art lovers</p>
-    </div>    
+          Join us in celebrating the power of art, music, and fashion. We invite you to expore our label and clothing brand and become a part of our vibrant community of artist and art lovers</p>   
   </div>
   )
 }
