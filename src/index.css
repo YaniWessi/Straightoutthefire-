@@ -28,7 +28,7 @@ code {
 }
 
 .border-red {
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 
 .flex {
@@ -404,6 +404,10 @@ code {
 
 
 @media (min-width: 1536px ) {
+
+  .body{
+    height: 2px;
+  }
 
   .appHeader {
     width: 100vw;
