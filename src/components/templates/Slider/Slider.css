@@ -79,7 +79,7 @@
     background: rgb(32, 32, 32);
   }
 
-  h2{
+  .slider-header{
     color: yellow;
     position: absolute;
     left: 40%;
