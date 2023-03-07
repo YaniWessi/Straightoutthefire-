@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "name":"black_gray_bennie",
+    "description":"blue Bennie with designs on it",
+    "price":5,
+    "quantity":10,
+    "category": "black_gray_bennie",
+    "image": "black_gray_bennie",
+    "image_alt": "black_bennie"
+  },
+  {
+    "id": 1,
+    "name":"black_multi_color_long_sleeve",
+    "description":"black shirt with multicolor design",
+    "price":30,
+    "quantity":10,
+    "category": "black_multi_color_long_sleeve",
+    "image": "black_multi_color_long_sleeve",
+    "image_alt": "black_long_sleeve"
+  },
+  {
+    "id": 2,
+    "name":"blue_sweater",
+    "description":"blue sweater with design in the front",
+    "price":20,
+    "quantity":10,
+    "category": "blue_sweater",
+    "image": "blue_sweater",
+    "image_alt": "blue_hoody"
+  },
+  {
+    "id": 3,
+    "name":"gray_sweater",
+    "description":"gray sweater with nice design infront",
+    "price":15,
+    "quantity":10,
+    "category": "gray_sweater",
+    "image": "gray_sweater",
+    "image_alt": "gray_sweather_design"
+  },
+  {
+    "id": 4,
+    "name":"green_black_hoody",
+    "description":"Hoody with unique design ",
+    "price":40,
+    "quantity":10,
+    "category": "green_black_hoody",
+    "image": "green_black_hoody",
+    "image_alt": "green_hoody_design"
+  },
+  {
+    "id": 5,
+    "name":"green_orange_crew_neck",
+    "description":"Unique design crewkneck",
+    "price":40,
+    "quantity":10,
+    "category": "green_orange_crew_neck",
+    "image": "green_orange_crew_neck" ,
+    "image_alt": "hoody_crew"
+  },
+  {
+    "id": 6,
+    "name":"orange_blue_bennie",
+    "description":"blue Bennie with designs on it",
+    "price":5,
+    "quantity":10,
+    "category": "orange_blue_bennie",
+    "image": "orange_blue_bennie",
+    "image_alt": "blue_bennie_red_dots"
+  },
+  {
+    "id": 7,
+    "name":"red_black_long_sleeve",
+    "description":"all black long sleeve shirt with design",
+    "price":40,
+    "quantity":10,
+    "category": "red_black_long_sleeve",
+    "image": "red_black_long_sleeve",
+    "image_alt": "long_sleev_red_black"
+  },
+  {
+    "id": 8,
+    "name":"white_black_long_sleeve",
+    "description":"all white shirt with nice design on it",
+    "price":10,
+    "quantity":10,
+    "category": "white_black_long_sleeve",
+    "image": "white_black_long_sleeve",
+    "image_alt": "all white shirt with unquie design on it"
+  },
+  {
+    "id": 9,
+    "name":"white_green_sleeve",
+    "description":"all white shirt with nice design on it",
+    "price":20,
+    "quantity":10,
+    "category": "white_green_sleeve",
+    "image": "white_green_sleeve",
+    "image_alt": "all white shirt with unquie design on it"
+  }
+]
